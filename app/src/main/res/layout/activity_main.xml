@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#fab602">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/inputimage"
+            android:id="@+id/imageSelect"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#147dc2"
+            android:gravity="center"
+            android:id="@+id/name"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Username"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#147dc2"
+            android:gravity="center"
+            android:id="@+id/username"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textColorHint="#147dc2"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:id="@+id/password"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#147dc2"
+            android:id="@+id/cnfpassword"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:layout_marginTop="30dp"
+            android:textColorHint="#147dc2"
+            android:gravity="center"
+            android:id="@+id/email"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Register"
+                android:textColor="#065c16"
+                android:background="@drawable/roundbutton"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:id="@+id/register"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Login"
+                android:textColor="#065c16"
+                android:background="@drawable/roundbutton1"
+                android:layout_gravity="center"
+                android:id="@+id/login"/>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/frame">
+
+
+        </FrameLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
